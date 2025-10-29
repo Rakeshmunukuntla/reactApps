@@ -1,0 +1,45 @@
+.sellerImagesFetured{
+    /* background-color: aqua; */
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    
+}
+.fooditeamsFeatured{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+}
+.iteams9{
+    /* background-color: aliceblue; */
+    width: 30%;
+     margin-left: 2%; 
+    display: flex;
+    gap: 2%;
+}
+#pic61{
+    background-image: url(../safiraImages/product11.jpg);
+    background-size: 100%;
+}
+#pic51{
+    background-image: url(../safiraImages/product5.jpg);
+    background-size: 100%;
+}
+#pic41{
+    background-image: url(../safiraImages/product9.jpg);
+    background-size: 100%;
+}
+#pic31{
+    background-image: url(../safiraImages/product3.jpg);
+    background-size: 100%;
+}
+#pic21{
+    background-image: url(../safiraImages/product7.jpg);
+    background-size: 100%;
+}#pic11{
+    background-image: url(../safiraImages/product1.jpg);
+    background-size: 100%;
+}

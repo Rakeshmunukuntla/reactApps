@@ -1,0 +1,49 @@
+.blogs{
+    height: 70vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+.blogPost{
+    /* background-color: black; */
+    width: 25%;
+
+}
+.imagblog{
+    /* background-color: aqua; */
+    height: 65%;
+}
+.matterBlog{
+    /* background-color: aliceblue; */
+    height: 35%;
+}
+#imgblog1{
+    background-image: url(../safiraImages/blog1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+#imgblog2{
+    background-image: url(../safiraImages/blog2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+#imgblog3{
+    background-image: url(../safiraImages/blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.blogs button{
+    border-radius: 100%;
+   height: 10x;
+   width: 20px;
+    background-color:  #80B82D;
+    color: white;
+    border: none;
+   
+}
+.para{
+    font-weight: bold;
+    font-size: 20px;
+}

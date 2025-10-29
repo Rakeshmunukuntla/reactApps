@@ -1,0 +1,32 @@
+.footerMain{
+    background-color: #80B82D;
+    height: 12.5vh;
+    display: flex;
+}
+.footer1{
+    width: 55%;
+    /* background-color: darkslategrey; */
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer2{
+    width: 45%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.footer2 img{
+    width: 7.5%;
+    height: 40%;
+}
+.safiraontotop{
+    cursor: pointer;
+}
+.safiraontotop:hover{
+    color: black;
+}

@@ -1,0 +1,20 @@
+.trending{
+    /* background-color: antiquewhite; */
+    height: 15vh;
+    width: 100%;
+}
+.productsHeading{
+    /* background-color: aqua; */
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+}
+.productsHeading:hover p{
+   color: black;
+}
+.trend{
+    font-size: 35px;
+}

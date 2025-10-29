@@ -1,0 +1,119 @@
+.register{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+.regAndLogBanner{
+    height: 30vh;
+    /* background-color: antiquewhite; */
+    background-image: url(../safiraImages/banner18ofregister);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.l1{
+    font-size: 50px;
+}
+.l2{
+    font-size: 30px;
+}
+.formlogreg{
+    /* background-color: aqua; */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5% ;
+}
+.loginform{
+    /* background-color: rgb(26, 27, 27); */
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    /* border: 1px solid black; */
+}
+
+.logreg{
+    height: 80%;
+    width: 95%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 2.5%;
+    border: 1px solid rgba(0, 0, 0, 0.237);
+}
+
+.logreg input{
+    height: 15%;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+}
+.forgot{
+    display: flex;
+    height: 15%;
+    flex-direction: row;
+    /* background-color: black; */
+    align-items: center;
+}
+.forgot1{
+    width: 40%;
+    /* background-color: aqua; */
+}
+.forgot2{
+    width: 5%;
+    /* background-color: rgb(254, 245, 247); */
+}
+.forgot3{
+    width: 30%;
+    /* background-color: antiquewhite; */
+}
+.forgot2 input{
+    width: 50%;
+    height: 50%;
+
+}
+.forgot4{
+    width: 25%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-end;
+}
+.forgot4 button{
+    width: 60%;
+    height: 35px;
+    background-color: #80B82D;
+    /* color: white; */
+    border-radius: 15px;
+    /* background-color: black; */
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+#forgot4{
+    width: 100%;
+    
+}
+#forgot4 button{
+    height: 35px;
+    width: 20%;
+    background-color: #80B82D;
+    /* color: white; */
+    border-radius: 15px;
+    /* background-color: black; */
+}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+#forgot4 button:hover{
+    background-color: black;
+    cursor: pointer;
+}

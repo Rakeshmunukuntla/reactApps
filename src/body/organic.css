@@ -1,0 +1,46 @@
+.organic{
+    height: 50vh;
+    width: 100%;
+    background-color: whitesmoke;
+    background-image: url(./images/tamoto.jpeg);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+  
+    background-position: 75%;
+    display: flex;
+   
+}
+.messageContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 50%;
+   flex-direction: column;
+   gap: 10%;
+   
+}
+.messageContent button{
+    margin-left: -50%;
+    width: 20%;
+    height: 12.5%;
+    color: white;
+    background-color:   #80B82D;
+    border: none;
+    border-radius: 12.5px;
+}
+.messageContent button:hover{
+    background-color: black;
+}
+pro{
+    display: flex;
+    flex-direction: column;
+}
+.fresh{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.onions{
+    font-size: 35px;
+    font-weight: 0;
+}

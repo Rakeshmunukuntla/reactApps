@@ -1,0 +1,50 @@
+.banner1{
+    /* background-color: aqua; */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    gap: 1.5%;
+    align-items: center;
+}
+.part1{
+    /* background-color: antiquewhite; */
+    width: 35%;
+    height: 80%;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+.part2{
+    /* background-color: antiquewhite; */
+    width: 35%;
+    height: 80%;
+    display: flex;
+    
+}
+.part3{
+    /* background-color: antiquewhite; */
+    width: 30%;
+    height: 80%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.img2{
+    width: 100%;
+}
+.part31{
+    display: flex;
+    align-items: flex-start;
+    /* background-color: red; */
+    
+}
+.part32{
+    display: flex;
+    align-items: flex-end;
+    /* background-color: green; */
+
+}
+img{
+    cursor: pointer;
+}

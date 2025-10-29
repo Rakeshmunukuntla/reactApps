@@ -1,0 +1,20 @@
+.buttons{
+    /* background-color: rgb(246, 191, 191); */
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+.button{
+    border: none;
+    background: none;
+    /* color: aliceblue; */
+}
+.button:hover{
+    border: 2px solid green;
+    background: none;
+    border-radius: 20px;
+    color: #80B82D;
+    padding: 5px 10px ;
+}
