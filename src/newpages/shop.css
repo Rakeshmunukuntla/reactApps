@@ -31,9 +31,12 @@
     
 }
 .verticalPart2{
-    background-color: rgb(255, 0, 136);
+    /* background-color: rgb(255, 0, 136); */
     width: 55%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
 
 }
 h3{
@@ -49,6 +52,9 @@ h3{
   cursor: pointer;
   gap: 10px;
 }
+.item:hover{
+    color: green;
+}
 .women{
     display: flex;
     flex-direction: column;
@@ -57,7 +63,7 @@ h3{
 .filterbyprice{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
 }
 .filterbyprice input{
     width: 90%;
@@ -112,4 +118,143 @@ h3{
     background-image: url(../safiraImages/bannerinshop.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    cursor: pointer;
+}
+.part1ofverticalpart2{
+    height: 3.5%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.258);
+
+}
+.verpart1{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.verpart1 svg{
+    cursor: pointer;
+}
+.verpart2{
+    width: 55%;
+    height: 100%;
+    /* background-color: rgb(34, 0, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .verpart2 select{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border: none;
+    outline: none;
+} */
+.verpart2 select {
+  font-size: 15px;      /* makes text bigger */
+  padding: 10px 15px;   /* adds space inside */
+  border-radius: 8px;   /* rounded corners */
+  width: 250px;         /* optional - set width */
+  height: 70%;    
+  line-height: 1.8;     /* increases overall size */
+ 
+  outline: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.verpart3{
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(204, 236, 236); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verpart2 select option{
+    font-size: 15px;
+    gap: 10px;
+   
+}
+
+
+.part2ofverticalpart2{
+    height: 84%;
+    /* background-color: rgb(37, 36, 31); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.shopiteam{
+    width: 32%;
+    height: 24%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+  
+}
+.shopiteampart1{
+    width: 100%;
+    height: 70%;
+    /* background-color: greenyellow; */
+}
+.shopiteampart2{
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(80, 82, 78); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.shopiteampart1 img{
+    width: 100%;
+    height: 100%;
+}
+.shopiteampart2 span{
+    text-decoration: line-through;
+    color: black;
+}
+
+.smallh6{
+    font-size: smaller;
+    cursor: pointer;
+}
+.smallh6:hover{
+    color: green;
+}
+.bigh3:hover{
+    color: green;
+    cursor: pointer;
+}
+.bigh1{
+    color: green;
+    font-weight: bold;
+}
+.part3ofverticalpart2{
+    height: 3%;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+}
+.part3ofverticalpart2 button{
+    height: 65%;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.part3ofverticalpart2 button:hover{
+    background-color: green;
+    color: white;
 }

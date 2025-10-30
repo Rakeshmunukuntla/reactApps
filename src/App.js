@@ -4,6 +4,8 @@ import Register from './newpages/register';
 import Home from './Home';
 import Contactus from './newpages/contactus';
 import Shop from './newpages/shop';
+import Blog from './newpages/blog';
+
 
 function App()  
 {
@@ -15,6 +17,7 @@ function App()
         <Route path="/login" element={<Register/>} />
         <Route path='/contactus' element={<Contactus></Contactus>}></Route>
         <Route path='/shop' element={<Shop></Shop>}></Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
       </Routes>
      </>
    )

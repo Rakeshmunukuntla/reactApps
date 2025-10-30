@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function HeaderBottom() {
+  const navigate=useNavigate();
     return(
         <div className="headerBottom">
             <div className="homeDropDown"><p>Home^</p>
@@ -33,7 +34,7 @@ function HeaderBottom() {
                    </div>
                 </div>
             </div>
-            <div className="shopDropDown"><p>Shop^</p>
+            <div onClick={()=>navigate("/shop")} className="shopDropDown"><p>Shop^</p>
 
                    <div className="dropdown-content-shop">
                    <div className="content1">
@@ -64,7 +65,7 @@ function HeaderBottom() {
                 </div>
                 
             </div>
-            <div className="blogDropDown"><p>Blog^</p>
+            <div onClick={()=>navigate("/blog")} className="blogDropDown"><p>Blog^</p>
 
                  <div className="dropdown-content-blog">
                    <div className="contentBlog">
