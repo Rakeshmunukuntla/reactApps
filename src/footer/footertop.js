@@ -30,7 +30,7 @@ function FooterTop()
             </div>
             <div className='footerpart2'>
                 <div><h3>Information</h3></div>
-                <div>
+                <div className='footerinfo'>
                     <p>About Us</p>
                     <p>Delivery Information</p>
                     <p>Privacy Policy</p>
@@ -42,7 +42,7 @@ function FooterTop()
             <div className='footerpart3'>
 
                  <div><h3>Extras</h3></div>
-                <div>
+                <div className='footerinfo'>
                     <p>Brands</p>
                     <p>Gift Certificate</p>
                     <p>Affiliate </p>

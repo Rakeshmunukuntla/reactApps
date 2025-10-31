@@ -67,3 +67,8 @@
     background-color: black;
    
 }
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

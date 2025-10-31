@@ -4,13 +4,13 @@ import pic2 from '../safiraImages/paypal2.jpg';
 import pic3 from '../safiraImages/paypal3.jpg';
 import pic4 from '../safiraImages/paypal4.jpg';
 
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 function MainFooter()
 {
-     const navigate=useNavigate();
+    //  const navigate=useNavigate();
     function handleclick(path)
     {
-       navigate(path);
+    //    navigate(path);
         window.scrollTo({top:0,behavior:'smooth'});
     }
     return(

@@ -17,7 +17,7 @@
     /* background-color: aqua; */
     height: 160vh;
     display: flex;
-    gap: 1%;
+    gap: 2%;
     align-items: center;
     justify-content: center;
 }
@@ -31,11 +31,11 @@
 }
 .blogspart2{
       width: 17.5%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 150vh;
     display: flex;
     flex-direction: column;
-    gap: 0.5%;
+    gap: 1%;
 }
 .blogpost{
     width: 32%;
@@ -70,7 +70,7 @@
 }
 .search{
     width: 100%;
-    background-color: rgb(255, 155, 127);
+    /* background-color: rgb(255, 155, 127); */
     height: 10%;
     display: flex;
     flex-direction: column;
@@ -100,3 +100,113 @@
 .search button:hover{
     background-color: green;
 }
+.recent{
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.recentpart{
+    height: 32%;
+    /* background-color: rgb(57, 65, 65); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.recentpart img{
+    border-radius: 100%;
+}
+.demo{
+    color: green;
+    cursor: pointer;
+    font-size: small;
+}
+.says{
+    /* color: black; */
+    cursor: pointer;
+    font-size: small;
+}
+.recentposts{
+     height: 16%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 2.5%;
+}
+.recentpostpart{
+    height: 30%;
+    /* background-color: rgb(57, 65, 65); */
+    display: flex;
+    gap: 5%;
+}
+.recentposts h6{
+    font-size: small;
+}
+.categories p{
+    font-size: small;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 20%;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+}
+.tagproducts{
+    height: 5%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    
+}
+.tagproducts button{
+    padding: 2.5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    background-color: white;
+   
+}
+.tagproducts button:hover{
+    color:  white;
+    background-color: green;
+}
+.buttonbar{
+    height: 7vh;
+    /* background-color: aqua; */
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.buttonbar button{
+    height: 60%;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.buttonbar button:hover{
+    background-color: green;
+    color: white;
+}
+.forhr{
+    /* background-color: antiquewhite; */
+    height: 10vh;
+    width: 80%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+}
+.forhronfooter{
+    /* background-color: lightblue; */
+    height: 10vh;
+    width: 80%;
+     /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+    margin-left: 10%;
+}
+
