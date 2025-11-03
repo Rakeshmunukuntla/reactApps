@@ -164,6 +164,9 @@
   width: 20px;
   border: none;
 }
+.cart:hover{
+  color: white;
+}
 .search-icon {
   margin-left: -20px;
   margin-top: 10px;

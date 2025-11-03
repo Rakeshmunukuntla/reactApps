@@ -38,6 +38,9 @@
     /* background-color: aqua; */
     width: 49%;
     height: 100%;
+     position: relative;
+    overflow: visible;
+    z-index: 10;
 }
 .des{
     /* background-color: rgb(255, 85, 0); */
@@ -60,26 +63,138 @@
 .money:hover{
     color:#80B82D;
 }
+
+
 #pic6{
     background-image: url(../safiraImages/product11.jpg);
+    background-size: 100%;
+}
+#pic6:hover{
+    background-image: url(../safiraImages/product13.jpg);
     background-size: 100%;
 }
 #pic5{
     background-image: url(../safiraImages/product5.jpg);
     background-size: 100%;
 }
+#pic5:hover{
+    background-image: url(../safiraImages/product6.jpg);
+    background-size: 100%;
+}
 #pic4{
     background-image: url(../safiraImages/product9.jpg);
+    background-size: 100%;
+}
+#pic4:hover{
+    background-image: url(../safiraImages/product10.jpg);
     background-size: 100%;
 }
 #pic3{
     background-image: url(../safiraImages/product3.jpg);
     background-size: 100%;
 }
+#pic3:hover{
+    background-image: url(../safiraImages/product12.jpg);
+    background-size: 100%;
+}
 #pic2{
     background-image: url(../safiraImages/product7.jpg);
     background-size: 100%;
-}#pic1{
+}
+#pic2:hover{
+    background-image: url(../safiraImages/product8.jpg);
+    background-size: 100%;
+}
+
+#pic1{
     background-image: url(../safiraImages/product1.jpg);
     background-size: 100%;
+}
+
+#pic1:hover{
+    background-image: url(../safiraImages/product18.jpg);
+    background-size: 100%;
+}
+
+
+
+
+
+.overlayBarForhorizantal {
+  position: absolute;
+  bottom: -100px;  
+  left: 170px;
+  top: 60px;
+  width: 90%;
+  height: 40px;
+  background: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  border-radius: 100px;
+  /* background-color: aqua; */
+  box-shadow: 2px 2px 2px;
+}
+
+.pic:hover .overlayBarForhorizantal {
+  bottom: 15px;
+  opacity: 1;
+}
+
+.svgdiv {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.svgdiv:hover  {
+    background-color: #80B82D;
+    color: white;
+    border-radius: 100%;
+}
+
+
+.svginfo{
+  position: absolute;
+  bottom: 40px;  
+  left: 00px;
+  width: 120px;
+  height: 30px;
+  background: black; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  color: white;
+  z-index: 9999;
+}
+
+/* Tooltip hover stays stable (no flicker) */
+.svgdiv:hover .svginfo,
+.svginfo:hover {
+  opacity: 1;
+  transform: translate(-20%, -10px);
+}
+
+/* Optional: small arrow under tooltip */
+.svginfo::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }

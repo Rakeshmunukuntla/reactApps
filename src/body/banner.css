@@ -28,7 +28,8 @@
     display: flex;
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    /* gap: 10%; */
+    justify-content: space-between;
 }
 .img2{
     width: 100%;

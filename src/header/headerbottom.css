@@ -32,7 +32,7 @@ p:hover {
     display: none;
   position: absolute;
     flex-direction: row;
-  top: 150%; /* directly below the text */
+  top: 100%; /* directly below the text */
   left: 0;
   height: 30vh;
   width: 45vw;
@@ -49,6 +49,7 @@ p:hover {
 }
 .homeDropDown:hover .dropdown-content-home{
     display: flex;
+      
 }
 
 .homeDropDown {
@@ -88,7 +89,7 @@ p:hover {
     display: none;
   position: absolute;
     flex-direction: row;
-    top: 150%; /* directly below the text */
+    top: 100%; /* directly below the text */
     left: -200%;
   height: 30vh;
   width: 45vw;
@@ -119,7 +120,7 @@ p:hover {
     display: none;
   position: absolute;
     flex-direction: row;
-    top: 150%; /* directly below the text */
+    top: 100%; /* directly below the text */
     
   height: 20vh;
   width: 12.5vw;
@@ -155,9 +156,9 @@ p:hover {
 
 .dropdown-content-page{
     display: none;
-  position: absolute;
+    position: absolute;
     flex-direction: row;
-    top: 150%; /* directly below the text */
+    top: 100%; /* directly below the text */
     
   height: 30vh;
   width: 12.5vw;
@@ -170,12 +171,14 @@ p:hover {
   gap: 2%;
   /* align-items: center; */
   background-color: white;
+  /* margin-top: 10%; */
   
 }
 
 .pagesDropDown:hover .dropdown-content-page{
     display: flex;
 }
+
 .contentPage{
     display: flex;
     flex-direction: column; 
@@ -184,3 +187,8 @@ p:hover {
     margin: 5%;
     gap: 5%;
 }
+
+
+
+
+
