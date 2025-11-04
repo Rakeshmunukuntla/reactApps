@@ -5,7 +5,7 @@
   justify-content: center;
   gap: 2.5%;
   height: 7vh;
-  /* background-color: aqua; */
+
 }
 
 
@@ -32,11 +32,11 @@ p:hover {
     display: none;
   position: absolute;
     flex-direction: row;
-  top: 100%; /* directly below the text */
+  top: 100%; 
   left: 0;
   height: 30vh;
   width: 45vw;
-  /* background-color: wheat; */
+ 
   min-width: 80px;
   border: 1px solid #ccc;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
@@ -45,6 +45,8 @@ p:hover {
   gap: 2%;
   align-items: center;
   background-color: white ;
+
+   
   
 }
 .homeDropDown:hover .dropdown-content-home{
@@ -58,8 +60,9 @@ p:hover {
   cursor: pointer;
 }
 .content1,.content2,.content3{
+  
     display: flex;
-    /* background-color: aqua; */
+   
     height: 100%;
     width: 33.33%;
     flex-direction: column;
@@ -69,12 +72,15 @@ p:hover {
 }
 .content3 h1{
    font-weight: bolder;
+   margin-top: 10px;
 }
 .content2 h1{
    font-weight: bolder;
+   margin-top: 10px;
 }
 .content1 h1{
    font-weight: bolder;
+   margin-top: 10px;
 }
 
 
@@ -86,14 +92,15 @@ p:hover {
 }
 
 .dropdown-content-shop{
-    display: none;
+    display: none; 
+    /* opacity: 0; */
   position: absolute;
     flex-direction: row;
-    top: 100%; /* directly below the text */
+    top: 100%;
     left: -200%;
   height: 30vh;
   width: 45vw;
-  /* background-color: wheat; */
+  
   min-width: 80px;
   border: 1px solid #ccc;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
@@ -107,6 +114,8 @@ p:hover {
 
 .shopDropDown:hover .dropdown-content-shop{
     display: flex;
+    /* opacity: 1; */
+
 }
 
 
@@ -120,18 +129,18 @@ p:hover {
     display: none;
   position: absolute;
     flex-direction: row;
-    top: 100%; /* directly below the text */
+    top: 100%; 
     
   height: 20vh;
   width: 12.5vw;
-  /* background-color: wheat; */
+ 
   min-width: 80px;
   border: 1px solid #ccc;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
   z-index: 1;
   font-size: small;
   gap: 2%;
-  /* align-items: center; */
+ 
   background-color: white;
   
 }
@@ -158,20 +167,20 @@ p:hover {
     display: none;
     position: absolute;
     flex-direction: row;
-    top: 100%; /* directly below the text */
+    top: 100%;
     
   height: 30vh;
   width: 12.5vw;
-  /* background-color: wheat; */
+
   min-width: 80px;
   border: 1px solid #ccc;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
   z-index: 1;
   font-size: small;
   gap: 2%;
-  /* align-items: center; */
+ 
   background-color: white;
-  /* margin-top: 10%; */
+
   
 }
 
@@ -187,6 +196,17 @@ p:hover {
     margin: 5%;
     gap: 5%;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

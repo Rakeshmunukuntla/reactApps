@@ -1,0 +1,69 @@
+.errorMid{
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.innererrormid{
+    width: 80%;
+    /* background-color: antiquewhite; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
+}
+.h1404{
+    font-size: 200px;
+    font-weight: bolder;
+    color: green;
+    height: 40%;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.matterinerror{
+    height: 60%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+}
+.matterinerror h3{
+    font-size: 25px;
+}
+.matterinerror h4{
+    font-size: 17.5px;
+}
+.matterinerror input{
+    width: 70%;
+    height: 12.5%;
+    outline: none;
+    padding-left: 5%;
+    border: 1px solid rgba(0, 0, 0, 0.311);
+    border-radius: 10px;
+}
+.matterinerror button{
+    font-size: 10px;
+    font-weight: 900;
+    padding: 7.5px 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.matterinerror button:hover{
+    background-color: black;
+}
+            
+.forspace{
+    height: 7.5vh;
+}

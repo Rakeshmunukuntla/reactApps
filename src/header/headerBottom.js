@@ -83,9 +83,9 @@ function HeaderBottom() {
                     <p>About As</p>  
                     <p>Services</p> 
                     <p>Frequently Questions</p>
-                    <p>Contact</p>
-                    <p>Login</p>
-                    <p>Error 404</p>
+                    <p onClick={()=>navigate("/contactus")}>Contact</p>
+                    <p onClick={()=>navigate("/login")}>Login</p>
+                    <p onClick={()=>navigate("/error")}>Error 404</p>
                    </div>
                    </div>
         
