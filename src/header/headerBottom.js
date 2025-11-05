@@ -4,7 +4,7 @@ function HeaderBottom() {
   const navigate=useNavigate();
     return(
         <div className="headerBottom">
-            <div className="homeDropDown"><p>Home^</p>
+            <div className="homeDropDown"><p onClick={()=>navigate("/")}>Home^</p>
                  <div className="dropdown-content-home">
                    <div className="content1">
                     <h1>ORGANIC</h1>
@@ -34,7 +34,7 @@ function HeaderBottom() {
                    </div>
                 </div>
             </div>
-            <div onClick={()=>navigate("/shop")} className="shopDropDown"><p>Shop^</p>
+            <div  className="shopDropDown"><p onClick={()=>navigate("/shop")}>Shop^</p>
 
                    <div className="dropdown-content-shop">
                    <div className="content1">
@@ -48,7 +48,7 @@ function HeaderBottom() {
 
                     <div className="content2">
                     <h1>OTHER PAGES</h1>
-                    <p>Cart</p>
+                    <p onClick={()=>navigate("/cart")}>Cart</p>
                     <p>Wish List</p>
                     <p>Checkout</p>
                     <p>My Account</p>

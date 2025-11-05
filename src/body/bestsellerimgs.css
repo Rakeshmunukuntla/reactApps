@@ -162,11 +162,11 @@
     border-radius: 100%;
 }
 
-
 .svginfo{
   position: absolute;
+  /* right: 100px; */
   bottom: 40px;  
-  left: 00px;
+  /* left: 00px; */
   width: 120px;
   height: 30px;
   background: black; 
@@ -184,7 +184,7 @@
 .svgdiv:hover .svginfo,
 .svginfo:hover {
   opacity: 1;
-  transform: translate(-20%, -10px);
+  transform: translate(-30%, -10px);
 }
 
 /* Optional: small arrow under tooltip */

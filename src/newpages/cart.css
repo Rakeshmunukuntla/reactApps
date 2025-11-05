@@ -1,0 +1,224 @@
+.cartBanner{
+    
+    height: 30vh;
+    /* background-color: antiquewhite; */
+    background-image: url(../safiraImages/banner18ofregister);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.cartmatter{
+    height: 180vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.cartmatterinside{
+    height: 160vh;
+    /* background-color: antiquewhite; */
+    width: 80%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.266);
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+}
+.cartmatterinside table{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+     border-collapse: collapse;
+    width: 100%;
+}
+.cartmatterinside th{
+    border: 1px solid rgba(0, 0, 0, 0.111);
+   
+}
+.th1{
+    width: 10%;
+}
+.th2{
+    width: 15%;
+}
+.th3{
+    width: 25%;
+}
+.th4{
+    width: 15%;
+}
+.th5{
+    width: 20%;
+}
+.th6{
+    width: 15%;
+}
+.cartmatterinside .thfortd{
+    height: 200px;
+    /* border: 1px solid red; */
+    /* border-collapse: collapse; */
+    
+}
+.thfortd img{
+    height: 80%;
+    width: 80%;
+}
+.thfortd input{
+    height: 20%;
+    width: 20%;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    outline: none;
+}
+#headings th{
+    border:none;
+    height: 40px;
+    font-weight: bold;
+   border-bottom: 3px solid green;
+}
+.lasttr th{
+   height:60px ;
+   border: none;
+}
+.lasttr button{
+    font-size: 11px;
+    padding: 0px 10px;
+    font-weight: bold;
+    height: 60%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.lasttr button:hover{
+    background-color: green;
+    
+}
+.cartmatterinside1{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 2%;
+}
+.cartpart1{
+    width: 49%;
+    height: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.155);
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    
+}
+.cartpart2{
+     width: 49%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.155);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5%;
+    /* align-items: center; */
+}
+.cartbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 400;
+}
+.cartbarmatter{
+    padding-left: 15px;
+}
+.cartbarbut{
+    padding-left: 15px;
+    display: flex;
+    gap: 5%;
+}
+.cartbarbut input{
+    height: 40px;
+    padding-left: 15px;
+    font-size: small;
+    outline: none;
+    border: 0.5px solid rgba(0, 0, 0, 0.167);
+}
+.cartbarbut button{
+    height: 40px;
+    padding: 0px 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    border: none;
+    /* outline: none; */
+    border-radius: 5px;
+}
+.cartbarbut button:hover{
+    background-color: green;
+}
+.cartbarpart1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* background-color: aqua; */
+    
+}
+.cartbarpart1 h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cartbarpart1of1{
+    width: 60%;
+    /* background-color: blueviolet; */
+}
+.cartbarpart1of2{
+    width: 40%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+}
+.cartbarpart1of2 h1{
+    font-size: 20px;
+}
+.cartbarpartmatter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* background-color: red; */
+    padding: 5px;
+    padding-right: 10px;
+    height: 40px;
+}
+.empty{
+    margin-left: 5%;
+    /* background-color: rgb(31, 116, 190); */
+    height: 10px;
+    width: 90%;
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+.cartpart2button{
+    width: 99%;
+    height: 20%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.cartpart2button button{
+    height: 60%;
+    width: 35%;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cartpart2button button:hover{
+    background-color: black;
+}
