@@ -1,0 +1,198 @@
+.myaccountBanner{
+
+    height: 30vh;
+    /* background-color: antiquewhite; */
+    background-image: url(../safiraImages/banner18ofregister);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.foralignment{
+    width: 100%;
+    /* height: 60vh; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.middivofacoount{
+    width: 70%; 
+    /* height: 50vh; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.234);
+
+}
+.middivofacoount1{
+    width: 30%;
+    height: 40vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+    margin-bottom: 75px;
+}
+.middivofacoount2{
+    width: 70%;
+    /* height: 25vh; */
+    /* background-color: rgb(0, 208, 255); */
+    display: flex;
+    margin-bottom: 75px;
+    margin-top: 10px;
+
+}
+.middivofacoount1 button{
+    width: 90%;
+    height: 14%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   display: flex;
+   padding-left: 20px;
+   align-items: center;
+}
+.middivofacoount1 button:hover{
+    background-color: forestgreen;
+}
+.forgap{
+    height: 7.5vh;
+    width: 100%;
+    /* background-color: orange; */
+}
+.middivofacoount1 .activeBtn{
+    background-color: forestgreen;
+}
+.dash{
+    font-size: 25px;
+}
+.dashboard{
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+.dashboard a{
+    text-decoration: none;
+    color: forestgreen;
+}
+.orders{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.orders h1{
+    font-size: 25px;
+}
+.orders table{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-collapse: collapse;
+    width: 48.5vw;
+}
+.orders th{
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.149);
+   
+}
+.firsttr{
+    background-color: gray;
+    border-bottom: 2.5px solid black;
+
+    
+}
+.orders h6{
+    color: forestgreen;
+}
+.thofmyac1{
+    width: 37%;
+}
+.thofmyac2{
+    width: 17.5%;
+}
+.thofmyac3{
+    width: 17.5%;
+}
+.thofmyac4{
+    width: 30%;
+}
+.orders p{
+    color: forestgreen;
+}
+.addresses{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.addresses h1{
+    font-size: 25px;
+}
+.addresses h3{
+    font-size: small;
+    font-weight: bold
+}
+.accountdetails{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.accountdetails h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.account1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.radios{
+    padding-left: 2.5px;
+    display: flex;
+    gap: 10px;
+
+}
+.radios input{
+    height: 15px;
+    width: 15px;
+}
+.radios1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.forinputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.labelandinputs{
+    display: flex;
+    flex-direction: column;
+}
+.labelandinputs input{
+    width: 735px;
+    height: 40px;
+}
+.foralign{
+    display: flex;
+    align-items: center;
+    gap: 10px   ;
+    /* justify-content: center; */
+}
+.foralign input{
+    height: 15px;
+    width: 15px;
+}
+.divforlastinaddress{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
