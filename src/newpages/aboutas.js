@@ -9,7 +9,8 @@ import img4 from "../safiraImages/About_icon2.webp";
 import img5 from "../safiraImages/About_icon3.webp";
 
 import img6 from "../safiraImages/about2.webp";
- 
+import img7 from "../safiraImages/about3.webp";
+import img8 from "../safiraImages/about4.webp";
 
 function AboutAs() {
   return (
@@ -91,7 +92,7 @@ function AboutAs() {
             </div>
           </div>
           <div className="wohinsideparts">
-            <img src={img7} alt="img6"></img>
+            <img src={img7} alt="img8"></img>
             <h6>Our Mission</h6>
             <div className="wohinsidepartsmatter">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -100,7 +101,7 @@ function AboutAs() {
             </div>
           </div>
           <div className="wohinsideparts">
-            <img src={img8} alt="img6"></img>
+            <img src={img8} alt="img8"></img>
             <h6>History Of Us</h6>
             <div className="wohinsidepartsmatter">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
